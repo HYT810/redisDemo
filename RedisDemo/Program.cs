@@ -16,7 +16,9 @@ namespace RedisDemo
             //RedisHelper.Add<string>("name", "hyt", DateTime.Now.AddDays(1));
             //RedisHelper.Add<string>("Age", "28", DateTime.Now.AddDays(1));
             Console.WriteLine(RedisHelper.Get<string>("name").ToString());
+            Console.WriteLine(RedisHelper.Get<string>("name").ToString());
             Console.ReadKey();
+
         }
     }
 }
